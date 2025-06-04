@@ -1,0 +1,78 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    37
+  ],
+  "ep_length_mean": [
+    37.0
+  ],
+  "ep_length_mean_T": [
+    37
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    37
+  ],
+  "num_circle": [
+    1
+  ],
+  "num_circle_T": [
+    37
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 3.9149999999999996
+    }
+  ],
+  "return_mean_T": [
+    37
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    37
+  ],
+  "test_battle_won_mean": [
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    37
+  ],
+  "test_ep_length_mean": [
+    250.0
+  ],
+  "test_ep_length_mean_T": [
+    37
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "test_return_mean_T": [
+    37
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "test_return_std_T": [
+    37
+  ]
+}

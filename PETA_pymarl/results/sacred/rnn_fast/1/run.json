@@ -1,0 +1,140 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/EMU_my/EMU_pymarl/src",
+    "dependencies": [
+      "munch==2.0.2",
+      "numpy==1.21.6",
+      "PyYAML==6.0.1",
+      "sacred==0.8.2",
+      "torch==1.9.1+cu111"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_605f03da354d92bede71f6a3c633a3c3.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_ecb1b620f33888f3bd11931a13c19cd5.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_dbae9b7001fb2435d067d770605d31e4.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"src/main.py\", line 41, in my_main\n    run(_run, config, _log)\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/run.py\", line 81, in run\n    run_sequential(args=args, logger=logger)\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/run.py\", line 270, in run_sequential\n    episode_batch = runner.run(test_mode=False)\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/runners/episode_runner.py\", line 54, in run\n    self.reset()\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/runners/episode_runner.py\", line 50, in reset\n    self.env.reset()\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/envs/starcraft2/starcraft2.py\", line 353, in reset\n    self._launch()\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/envs/starcraft2/starcraft2.py\", line 298, in _launch\n    self._run_config = run_configs.get(version=self.game_version)\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/pysc2/run_configs/__init__.py\", line 36, in get\n    return max(configs.values(), key=lambda c: c.priority())(version=version)\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/pysc2/run_configs/platforms.py\", line 175, in __init__\n    super(Linux, self).__init__(base_dir, \"SC2_x64\", version=version, env=env)\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/pysc2/run_configs/platforms.py\", line 59, in __init__\n    data_dir=base_dir, tmp_dir=None, version=version, cwd=cwd, env=env)\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/pysc2/run_configs/lib.py\", line 128, in __init__\n    self.version = self._get_version(version)\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/pysc2/run_configs/lib.py\", line 236, in _get_version\n    versions = self.get_versions(containing=game_version)\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/pysc2/run_configs/platforms.py\", line 90, in get_versions\n    for v in os.listdir(versions_dir)\n",
+    "FileNotFoundError: [Errno 2] No such file or directory: '/pymarl/EMC/pymarl/3rdparty/StarCraftII/Versions'\n"
+  ],
+  "heartbeat": "2024-10-28T15:21:48.658399",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD EPYC 7742 64-Core Processor",
+    "gpus": {
+      "driver_version": "525.60.11",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        }
+      ]
+    },
+    "hostname": "13e0f2728df1",
+    "os": [
+      "Linux",
+      "Linux-4.15.0-213-generic-x86_64-with-debian-stretch-sid"
+    ],
+    "python_version": "3.7.16"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": false,
+      "--capture": false,
+      "--comment": false,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": false,
+      "--force": false,
+      "--help": false,
+      "--loglevel": false,
+      "--mongo_db": false,
+      "--name": false,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": false,
+      "--queue": false,
+      "--s3": false,
+      "--sql": false,
+      "--tiny_db": false,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=2c_vs_64zg"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2024-10-28T15:21:39.964356",
+  "status": "FAILED",
+  "stop_time": "2024-10-28T15:21:48.661022"
+}

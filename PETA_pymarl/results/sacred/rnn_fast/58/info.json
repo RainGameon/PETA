@@ -1,0 +1,138 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    54
+  ],
+  "curiosity_decay_cycle": [
+    100000
+  ],
+  "curiosity_decay_cycle_T": [
+    1447
+  ],
+  "curiosity_decay_rate": [
+    0.9
+  ],
+  "curiosity_decay_rate_T": [
+    1447
+  ],
+  "curiosity_decay_stop": [
+    0.0
+  ],
+  "curiosity_decay_stop_T": [
+    1447
+  ],
+  "curiosity_scale": [
+    0.001
+  ],
+  "curiosity_scale_T": [
+    1447
+  ],
+  "ep_length_mean": [
+    54.0
+  ],
+  "ep_length_mean_T": [
+    54
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    54
+  ],
+  "num_circle": [
+    1
+  ],
+  "num_circle_T": [
+    54
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 2.6625
+    }
+  ],
+  "return_mean_T": [
+    54
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    54
+  ],
+  "test_battle_won_mean": [
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    54
+  ],
+  "test_ep_length_mean": [
+    250.0
+  ],
+  "test_ep_length_mean_T": [
+    54
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "test_return_mean_T": [
+    54
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "test_return_std_T": [
+    54
+  ],
+  "vdn extrinsic rewards": [
+    0.06880787478369849
+  ],
+  "vdn extrinsic rewards_T": [
+    1447
+  ],
+  "vdn intrinsic rewards": [
+    0.003369610805551019
+  ],
+  "vdn intrinsic rewards_T": [
+    1447
+  ],
+  "vdn predict_grad_norm": [
+    1.7479275465011597
+  ],
+  "vdn predict_grad_norm_T": [
+    1447
+  ],
+  "vdn predict_mac_out_mean": [
+    0.010458679869771004
+  ],
+  "vdn predict_mac_out_mean_T": [
+    1447
+  ],
+  "vdn prediction loss": [
+    3.36961030960083
+  ],
+  "vdn prediction loss_T": [
+    1447
+  ],
+  "vdn soft_target_mac_out_next_mean": [
+    0.026509810239076614
+  ],
+  "vdn soft_target_mac_out_next_mean_T": [
+    1447
+  ]
+}

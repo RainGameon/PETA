@@ -1,0 +1,138 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    35
+  ],
+  "curiosity_decay_cycle": [
+    100000
+  ],
+  "curiosity_decay_cycle_T": [
+    1488
+  ],
+  "curiosity_decay_rate": [
+    0.9
+  ],
+  "curiosity_decay_rate_T": [
+    1488
+  ],
+  "curiosity_decay_stop": [
+    0.0
+  ],
+  "curiosity_decay_stop_T": [
+    1488
+  ],
+  "curiosity_scale": [
+    0.001
+  ],
+  "curiosity_scale_T": [
+    1488
+  ],
+  "ep_length_mean": [
+    35.0
+  ],
+  "ep_length_mean_T": [
+    35
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    35
+  ],
+  "num_circle": [
+    1
+  ],
+  "num_circle_T": [
+    35
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 2.8599999999999994
+    }
+  ],
+  "return_mean_T": [
+    35
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    35
+  ],
+  "test_battle_won_mean": [
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    35
+  ],
+  "test_ep_length_mean": [
+    237.8125
+  ],
+  "test_ep_length_mean_T": [
+    35
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.023671875
+    }
+  ],
+  "test_return_mean_T": [
+    35
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.6153073895226517
+    }
+  ],
+  "test_return_std_T": [
+    35
+  ],
+  "vdn extrinsic rewards": [
+    0.0699630347631311
+  ],
+  "vdn extrinsic rewards_T": [
+    1488
+  ],
+  "vdn intrinsic rewards": [
+    0.0036408215440729614
+  ],
+  "vdn intrinsic rewards_T": [
+    1488
+  ],
+  "vdn predict_grad_norm": [
+    1.697336196899414
+  ],
+  "vdn predict_grad_norm_T": [
+    1488
+  ],
+  "vdn predict_mac_out_mean": [
+    -0.0006926038186065853
+  ],
+  "vdn predict_mac_out_mean_T": [
+    1488
+  ],
+  "vdn prediction loss": [
+    3.6408212184906006
+  ],
+  "vdn prediction loss_T": [
+    1488
+  ],
+  "vdn soft_target_mac_out_next_mean": [
+    -0.02339436113834381
+  ],
+  "vdn soft_target_mac_out_next_mean_T": [
+    1488
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/EMU_my/EMU_pymarl/src",
+    "dependencies": [
+      "munch==2.0.2",
+      "numpy==1.21.6",
+      "PyYAML==6.0.1",
+      "sacred==0.8.2",
+      "torch==1.9.1+cu111"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_605f03da354d92bede71f6a3c633a3c3.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_d788253056324a3d890c59188ac1ce3b.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_dbae9b7001fb2435d067d770605d31e4.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/root/miniconda3/envs/EMU/lib/python3.7/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"src/main.py\", line 41, in my_main\n    run(_run, config, _log)\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/run.py\", line 83, in run\n    run_sequential(args=args, logger=logger)\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/run.py\", line 221, in run_sequential\n    learner.cuda()\n",
+    "  File \"/home/EMU_my/EMU_pymarl/src/learners/qplex_curiosity_vdn_learner_ind.py\", line 412, in cuda\n    self.vdn_learner.to(self.args.device) #.cuda()\n",
+    "AttributeError: 'vdn_QLearner_Curiosity_individual' object has no attribute 'to'\n"
+  ],
+  "heartbeat": "2024-11-03T14:07:29.968421",
+  "host": {
+    "ENV": {},
+    "cpu": "AMD EPYC 7742 64-Core Processor",
+    "gpus": {
+      "driver_version": "525.60.11",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        },
+        {
+          "model": "NVIDIA GeForce RTX 3090",
+          "persistence_mode": true,
+          "total_memory": 24576
+        }
+      ]
+    },
+    "hostname": "13e0f2728df1",
+    "os": [
+      "Linux",
+      "Linux-4.15.0-213-generic-x86_64-with-debian-stretch-sid"
+    ],
+    "python_version": "3.7.16"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": false,
+      "--capture": false,
+      "--comment": false,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": false,
+      "--force": false,
+      "--help": false,
+      "--loglevel": false,
+      "--mongo_db": false,
+      "--name": false,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": false,
+      "--queue": false,
+      "--s3": false,
+      "--sql": false,
+      "--tiny_db": false,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=2s3z"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2024-11-03T14:07:26.743475",
+  "status": "FAILED",
+  "stop_time": "2024-11-03T14:07:29.971470"
+}

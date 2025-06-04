@@ -1,0 +1,40 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    42
+  ],
+  "ep_length_mean": [
+    42.0
+  ],
+  "ep_length_mean_T": [
+    42
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    42
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 3.1826347305389224
+    }
+  ],
+  "return_mean_T": [
+    42
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    42
+  ]
+}

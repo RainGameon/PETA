@@ -1,0 +1,353 @@
+[INFO 15:52:44] pymarl Running command 'my_main'
+[INFO 15:52:44] pymarl Started run with ID "30"
+[DEBUG 15:52:44] pymarl Starting Heartbeat
+[DEBUG 15:52:44] my_main Started
+[INFO 15:52:44] my_main device:cuda:6
+[INFO 15:52:44] my_main Experiment Parameters:
+[INFO 15:52:44] my_main 
+
+{   'action_selector': 'epsilon_greedy',
+    'additional_update': True,
+    'adv_hypernet_embed': 64,
+    'adv_hypernet_layers': 1,
+    'agent': 'rnn_fast',
+    'agent_output_type': 'q',
+    'atol_memory': 1.3e-05,
+    'attend_reg_coef': 0.001,
+    'batch_size': 32,
+    'batch_size_run': 1,
+    'buffer_cpu_only': False,
+    'buffer_size': 5000,
+    'buffer_size_update': 1700,
+    'burn_in_period': 32,
+    'checkpoint_path': '',
+    'config_name': '',
+    'critic_lr': 0.0005,
+    'curiosity_decay': True,
+    'curiosity_decay_cycle': 100000,
+    'curiosity_decay_rate': 0.9,
+    'curiosity_decay_stop': 0.0,
+    'curiosity_scale': 0.001,
+    'delta_cover_type': 1,
+    'double_q': True,
+    'ec_buffer_embedder_update_interval': 10000,
+    'ec_buffer_stats_update_interval': 200,
+    'emb_out_type': 3,
+    'emb_training_batch': 102400,
+    'emb_training_mini_batch': 1024,
+    'emdqn_buffer_size': 1000000,
+    'emdqn_latent_dim': 4,
+    'emdqn_loss_weight': 0.1,
+    'encoder_type': 1,
+    'env': 'sc2',
+    'env_args': {   'continuing_episode': False,
+                    'debug': False,
+                    'difficulty': '7',
+                    'game_version': None,
+                    'heuristic_ai': False,
+                    'heuristic_rest': False,
+                    'map_name': '2c_vs_64zg',
+                    'move_amount': 2,
+                    'obs_all_health': True,
+                    'obs_instead_of_state': False,
+                    'obs_last_action': False,
+                    'obs_own_health': True,
+                    'obs_pathing_grid': False,
+                    'obs_terrain_height': False,
+                    'obs_timestep_number': False,
+                    'replay_dir': '',
+                    'replay_prefix': '',
+                    'reward_death_value': 10,
+                    'reward_defeat': 0,
+                    'reward_negative_scale': 0.5,
+                    'reward_only_positive': True,
+                    'reward_scale': True,
+                    'reward_scale_rate': 20,
+                    'reward_sparse': False,
+                    'reward_win': 200,
+                    'seed': 690514028,
+                    'state_last_action': True,
+                    'state_timestep_number': False,
+                    'step_mul': 8},
+    'epsilon_anneal_time': 50000,
+    'epsilon_finish': 0.05,
+    'epsilon_start': 1.0,
+    'evaluate': False,
+    'fixed_delta': True,
+    'flag_stats_norm': True,
+    'gamma': 0.99,
+    'grad_norm_clip': 10,
+    'hypernet_embed': 64,
+    'individual_q_loss_weight': 0.01,
+    'is_adv_attention': True,
+    'is_batch_rl': False,
+    'is_from_start': True,
+    'is_minus_one': True,
+    'is_prioritized_buffer': True,
+    'is_save_buffer': False,
+    'is_stop_gradient': True,
+    'joint_random_policy_eps': 0.0,
+    'label': 'default_label',
+    'lambda_kl': 0.0001,
+    'lambda_s': 0.1,
+    'learner': 'qplex_curiosity_vdn_learner_ind',
+    'learner_log_interval': 10000,
+    'load_buffer_id': 0,
+    'load_step': 0,
+    'local_results_path': 'results',
+    'log_interval': 10000,
+    'lr': 0.0005,
+    'mac': 'fast_mac',
+    'mask_dead': False,
+    'memory_emb_type': 3,
+    'mixer': 'dmaq_qatten',
+    'mixing_embed_dim': 32,
+    'n_head': 4,
+    'name': 'EMU_sc2',
+    'nonlinear': False,
+    'num_circle': 1,
+    'num_kernel': 4,
+    'obs_agent_id': True,
+    'obs_last_action': True,
+    'optim_alpha': 0.99,
+    'optim_eps': 1e-05,
+    'optimality_incentive': False,
+    'optimality_type': 1,
+    'predict2_vdn_target': True,
+    'predict_vdn_target': True,
+    'predictor_lr': 0.005,
+    'prioritized_buffer_alpha': 0.5,
+    'repeat_id': 1,
+    'rewardnet_embed_size': 128,
+    'rewardnet_head': 4,
+    'rewardnet_used': True,
+    'rewardnet_weight': 0.001,
+    'rnn_hidden_dim': 64,
+    'rtol_memory': 0.0,
+    'runner': 'episode',
+    'runner_log_interval': 10000,
+    'save_buffer': False,
+    'save_buffer_id': 0,
+    'save_buffer_interval': 1000,
+    'save_buffer_size': 10000,
+    'save_memory_info': False,
+    'save_model': True,
+    'save_model_interval': 1000000,
+    'save_replay': False,
+    'seed': 690514028,
+    'soft_update_tau': 0.005,
+    'state_bias': True,
+    't_EC_update': 0,
+    't_max': 2050000,
+    'target_update_interval': 200,
+    'test_greedy': True,
+    'test_interval': 10000,
+    'test_nepisode': 32,
+    'use_AEM': True,
+    'use_cuda': True,
+    'use_double_predict': False,
+    'use_emdqn': True,
+    'use_individual_Q': False,
+    'use_qtotal_td': False,
+    'use_tensorboard': True,
+    'vdn_soft_update': True,
+    'weighted_head': False}
+
+[INFO 15:52:44] my_main saving tb_logs to results/tb_logs/sc2/2c_vs_64zg/EMU_sc2__2024-11-01_15-52-44
+[INFO 15:52:50] my_main Beginning training for 2050000 timesteps
+[INFO 15:52:50] absl No GL library found, so RGB rendering will be disabled. For software rendering install libosmesa.
+[INFO 15:52:50] absl Launching SC2: /home/EMC/pymarl/3rdparty/StarCraftII/Versions/Base69232/SC2_x64 -listen 127.0.0.1 -port 38823 -dataDir /home/EMC/pymarl/3rdparty/StarCraftII/ -tempDir /tmp/sc-lsi7g6gk/ -headlessNoRender
+[INFO 15:52:51] absl Connecting to: ws://127.0.0.1:38823/sc2api, attempt: 0, running: True
+Version: B69232 (SC2.4.6-Publish)
+Build: Oct 23 2018 01:43:04
+Command Line: '"/home/EMC/pymarl/3rdparty/StarCraftII/Versions/Base69232/SC2_x64" -listen 127.0.0.1 -port 38823 -dataDir /home/EMC/pymarl/3rdparty/StarCraftII/ -tempDir /tmp/sc-lsi7g6gk/ -headlessNoRender'
+Starting up...
+Startup Phase 1 complete
+[INFO 15:52:52] absl Connecting to: ws://127.0.0.1:38823/sc2api, attempt: 1, running: True
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:38823
+Startup Phase 3 complete. Ready for commands.
+[INFO 15:52:53] absl Connecting to: ws://127.0.0.1:38823/sc2api, attempt: 2, running: True
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Entering load game phase.
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Sending ResponseJoinGame
+[INFO 15:52:59] my_main t_env: 29 / 2050000
+[INFO 15:52:59] my_main Estimated time left: 28 minutes, 24 seconds. Time passed: 8 seconds
+[INFO 15:53:18] my_main Saving models to results/models/_2c_vs_64zg/EMU_sc2__2024-11-01_15-52-44/29
+[INFO 16:00:25] my_main Updated target network
+[INFO 16:00:25] my_main Updated target network
+[INFO 16:04:41] my_main t_env: 10034 / 2050000
+[INFO 16:04:41] my_main Estimated time left: 1 days, 15 hours, 47 minutes, 31 seconds. Time passed: 11 minutes, 50 seconds
+[INFO 16:04:59] my_main Recent Stats | t_env:      10034 | Episode:      308
+battle_won_mean:           0.0000	curiosity_decay_cycle:   100000.0000	curiosity_decay_rate:      0.9000	curiosity_decay_stop:      0.0000
+curiosity_scale:           0.0010	emdqn_curr_capacity:     1069.0000	emdqn_loss:                0.0000	emdqn_weight:              0.1000
+ep_length_mean:           30.7948	epsilon:                   0.8100	grad_norm:                 2.4652	individual_reward:         0.0005
+loss:                      0.2863	num_circle:                1.0000	pred_total_reward:         0.4930	q_taken_mean:              0.3610
+return_mean:               8.4724	return_std:                0.7544	rewardnet_loss:            0.2827	target_mean:               0.5392
+td_error_abs:              0.3959	test_battle_won_mean:      0.0000	test_ep_length_mean:      35.8594	test_return_mean:         12.1376
+test_return_std:           1.3758	vdn extrinsic rewards:     0.2690	vdn grad_norm:             0.7243	vdn hit_prob:              0.1316
+vdn intrinsic rewards:     0.0096	vdn loss:                  0.5881	vdn prediction loss:       9.6368	vdn q_taken_mean:          0.0125
+vdn target_mean:           0.3314	vdn td_error_abs:          0.6409	
+[INFO 16:08:41] my_main Updated target network
+[INFO 16:08:42] my_main Updated target network
+[INFO 16:16:43] my_main Updated target network
+[INFO 16:16:44] my_main Updated target network
+[INFO 16:17:18] my_main t_env: 20059 / 2050000
+[INFO 16:17:18] my_main Estimated time left: 1 days, 18 hours, 32 minutes, 31 seconds. Time passed: 24 minutes, 27 seconds
+[INFO 16:17:35] my_main Recent Stats | t_env:      20059 | Episode:      615
+battle_won_mean:           0.0000	curiosity_decay_cycle:   100000.0000	curiosity_decay_rate:      0.9000	curiosity_decay_stop:      0.0000
+curiosity_scale:           0.0010	emdqn_curr_capacity:     6188.5000	emdqn_loss:                0.0000	emdqn_weight:              0.1000
+ep_length_mean:           31.4148	epsilon:                   0.6195	grad_norm:                 1.4463	individual_reward:         0.0003
+loss:                      0.1893	num_circle:                1.0000	pred_total_reward:         0.2881	q_taken_mean:              0.5376
+return_mean:               8.8544	return_std:                1.0542	rewardnet_loss:            0.1993	target_mean:               0.6349
+td_error_abs:              0.3094	test_battle_won_mean:      0.0000	test_ep_length_mean:      34.9792	test_return_mean:         12.2038
+test_return_std:           1.2178	vdn extrinsic rewards:     0.2747	vdn grad_norm:             0.5612	vdn hit_prob:              0.1464
+vdn intrinsic rewards:     0.0071	vdn loss:                  0.3383	vdn prediction loss:       7.1083	vdn q_taken_mean:          0.1911
+vdn target_mean:           0.3710	vdn td_error_abs:          0.4289	
+[INFO 16:24:59] my_main Updated target network
+[INFO 16:25:00] my_main Updated target network
+[INFO 16:29:54] my_main t_env: 30074 / 2050000
+[INFO 16:29:54] my_main Estimated time left: 1 days, 18 hours, 22 minutes, 45 seconds. Time passed: 37 minutes, 3 seconds
+[INFO 16:30:12] my_main Recent Stats | t_env:      30074 | Episode:      923
+battle_won_mean:           0.0000	curiosity_decay_cycle:   100000.0000	curiosity_decay_rate:      0.9000	curiosity_decay_stop:      0.0000
+curiosity_scale:           0.0010	emdqn_curr_capacity:     11271.0000	emdqn_loss:                0.0000	emdqn_weight:              0.1000
+ep_length_mean:           31.6901	epsilon:                   0.4291	grad_norm:                 1.1849	individual_reward:         0.0003
+loss:                      0.1691	num_circle:                1.0000	pred_total_reward:         0.3216	q_taken_mean:              0.7336
+return_mean:               9.1151	return_std:                1.1818	rewardnet_loss:            0.1659	target_mean:               0.8039
+td_error_abs:              0.2923	test_battle_won_mean:      0.0000	test_ep_length_mean:      34.4609	test_return_mean:         12.1235
+test_return_std:           1.2417	vdn extrinsic rewards:     0.2766	vdn grad_norm:             0.4691	vdn hit_prob:              0.1554
+vdn intrinsic rewards:     0.0067	vdn loss:                  0.2663	vdn prediction loss:       6.7338	vdn q_taken_mean:          0.4203
+vdn target_mean:           0.5430	vdn td_error_abs:          0.3684	
+[INFO 16:33:15] my_main Updated target network
+[INFO 16:33:16] my_main Updated target network
+[INFO 16:40:47] my_main Updated target network
+[INFO 16:40:47] my_main Updated target network
+[INFO 16:42:01] my_main t_env: 40085 / 2050000
+[INFO 16:42:01] my_main Estimated time left: 1 days, 16 hours, 34 minutes, 2 seconds. Time passed: 49 minutes, 11 seconds
+[INFO 16:42:18] my_main Recent Stats | t_env:      40085 | Episode:     1236
+battle_won_mean:           0.0000	curiosity_decay_cycle:   100000.0000	curiosity_decay_rate:      0.9000	curiosity_decay_stop:      0.0000
+curiosity_scale:           0.0010	emdqn_curr_capacity:     16345.2500	emdqn_loss:                0.0000	emdqn_weight:              0.1000
+ep_length_mean:           31.7489	epsilon:                   0.2390	grad_norm:                 1.0627	individual_reward:         0.0004
+loss:                      0.1554	num_circle:                1.0000	pred_total_reward:         0.3329	q_taken_mean:              0.8771
+return_mean:               9.3566	return_std:                1.2588	rewardnet_loss:            0.1450	target_mean:               0.9265
+td_error_abs:              0.2832	test_battle_won_mean:      0.0000	test_ep_length_mean:      33.9937	test_return_mean:         11.8150
+test_return_std:           1.3594	vdn extrinsic rewards:     0.2824	vdn grad_norm:             0.5296	vdn hit_prob:              0.1666
+vdn intrinsic rewards:     0.0066	vdn loss:                  0.2322	vdn prediction loss:       6.5854	vdn q_taken_mean:          0.5733
+vdn target_mean:           0.6768	vdn td_error_abs:          0.3423	
+[INFO 16:48:07] my_main Updated target network
+[INFO 16:48:08] my_main Updated target network
+[INFO 16:53:49] my_main t_env: 50092 / 2050000
+[INFO 16:53:49] my_main Estimated time left: 1 days, 15 hours, 15 minutes, 13 seconds. Time passed: 1 hours, 58 seconds
+[INFO 16:54:04] my_main Recent Stats | t_env:      50092 | Episode:     1563
+battle_won_mean:           0.0000	curiosity_decay_cycle:   100000.0000	curiosity_decay_rate:      0.9000	curiosity_decay_stop:      0.0000
+curiosity_scale:           0.0010	emdqn_curr_capacity:     21433.4000	emdqn_loss:                0.0000	emdqn_weight:              0.1000
+ep_length_mean:           32.0694	epsilon:                   0.0500	grad_norm:                 0.9468	individual_reward:         0.0003
+loss:                      0.1445	num_circle:                1.0000	pred_total_reward:         0.2837	q_taken_mean:              1.0208
+return_mean:               9.7524	return_std:                1.5777	rewardnet_loss:            0.1384	target_mean:               1.0596
+td_error_abs:              0.2735	test_battle_won_mean:      0.0000	test_ep_length_mean:      32.3563	test_return_mean:         11.0108
+test_return_std:           1.3695	vdn extrinsic rewards:     0.2860	vdn grad_norm:             0.6405	vdn hit_prob:              0.1745
+vdn intrinsic rewards:     0.0066	vdn loss:                  0.2141	vdn prediction loss:       6.5658	vdn q_taken_mean:          0.7398
+vdn target_mean:           0.8341	vdn td_error_abs:          0.3278	
+[INFO 16:55:23] my_main Updated target network
+[INFO 16:55:24] my_main Updated target network
+[INFO 17:02:23] my_main Updated target network
+[INFO 17:02:24] my_main Updated target network
+RequestQuit command received.
+Closing Application...
+unable to parse websocket frame.
+[INFO 17:03:42] absl Shutdown gracefully.
+[INFO 17:03:42] absl Shutdown with return code: -15
+[INFO 17:03:43] absl No GL library found, so RGB rendering will be disabled. For software rendering install libosmesa.
+[INFO 17:03:43] absl Launching SC2: /home/EMC/pymarl/3rdparty/StarCraftII/Versions/Base69232/SC2_x64 -listen 127.0.0.1 -port 34605 -dataDir /home/EMC/pymarl/3rdparty/StarCraftII/ -tempDir /tmp/sc-prpi4b5u/ -headlessNoRender
+[INFO 17:03:43] absl Connecting to: ws://127.0.0.1:34605/sc2api, attempt: 0, running: True
+Version: B69232 (SC2.4.6-Publish)
+Build: Oct 23 2018 01:43:04
+Command Line: '"/home/EMC/pymarl/3rdparty/StarCraftII/Versions/Base69232/SC2_x64" -listen 127.0.0.1 -port 34605 -dataDir /home/EMC/pymarl/3rdparty/StarCraftII/ -tempDir /tmp/sc-prpi4b5u/ -headlessNoRender'
+Starting up...
+Startup Phase 1 complete
+[INFO 17:03:44] absl Connecting to: ws://127.0.0.1:34605/sc2api, attempt: 1, running: True
+Startup Phase 2 complete
+Creating stub renderer...
+Listening on: 127.0.0.1:34605
+Startup Phase 3 complete. Ready for commands.
+[INFO 17:03:45] absl Connecting to: ws://127.0.0.1:34605/sc2api, attempt: 2, running: True
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Entering load game phase.
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Sending ResponseJoinGame
+SUNMENGYAO____50____________________
+cuda 11.1
+SUNMENGYAO________________________args.device=cuda:6
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=1
+SUNMENGYAO_______________runner: k=ep_length v=29
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=32
+SUNMENGYAO_______________runner: k=ep_length v=1227
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=307
+SUNMENGYAO_______________runner: k=ep_length v=10005
+Processing time for memory embedding: 2.2411346435546875e-05
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=32
+SUNMENGYAO_______________runner: k=ep_length v=1068
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=307
+SUNMENGYAO_______________runner: k=ep_length v=10025
+Processing time for memory embedding: 3.4332275390625e-05
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=32
+SUNMENGYAO_______________runner: k=ep_length v=1063
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=308
+SUNMENGYAO_______________runner: k=ep_length v=10015
+Processing time for memory embedding: 2.6226043701171875e-05
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=32
+SUNMENGYAO_______________runner: k=ep_length v=1053
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=313
+SUNMENGYAO_______________runner: k=ep_length v=10011
+Processing time for memory embedding: 2.8371810913085938e-05
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=32
+SUNMENGYAO_______________runner: k=ep_length v=1028
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=327
+SUNMENGYAO_______________runner: k=ep_length v=10007
+Processing time for memory embedding: 2.5033950805664062e-05
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=32
+SUNMENGYAO_______________runner: k=ep_length v=965
+SUNMENGYAO_______________runner: k=battle_won v=0
+SUNMENGYAO_______________runner: k=n_episodes v=323
+SUNMENGYAO_______________runner: k=ep_length v=10028
+Processing time for memory embedding: 2.7179718017578125e-05

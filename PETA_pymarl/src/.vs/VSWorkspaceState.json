@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\config\\envs",
+    "\\controllers",
+    "\\envs",
+    "\\learners",
+    "\\modules",
+    "\\modules\\agents",
+    "\\runners"
+  ],
+  "SelectedNode": "\\config\\algs",
+  "PreviewInSolutionExplorer": false
+}

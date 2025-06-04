@@ -1,0 +1,138 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    37
+  ],
+  "curiosity_decay_cycle": [
+    100000
+  ],
+  "curiosity_decay_cycle_T": [
+    1267
+  ],
+  "curiosity_decay_rate": [
+    0.9
+  ],
+  "curiosity_decay_rate_T": [
+    1267
+  ],
+  "curiosity_decay_stop": [
+    0.0
+  ],
+  "curiosity_decay_stop_T": [
+    1267
+  ],
+  "curiosity_scale": [
+    0.001
+  ],
+  "curiosity_scale_T": [
+    1267
+  ],
+  "ep_length_mean": [
+    37.0
+  ],
+  "ep_length_mean_T": [
+    37
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    37
+  ],
+  "num_circle": [
+    1
+  ],
+  "num_circle_T": [
+    37
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 2.9425
+    }
+  ],
+  "return_mean_T": [
+    37
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    37
+  ],
+  "test_battle_won_mean": [
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    37
+  ],
+  "test_ep_length_mean": [
+    30.4375
+  ],
+  "test_ep_length_mean_T": [
+    37
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 1.3374218750000002
+    }
+  ],
+  "test_return_mean_T": [
+    37
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.8835615703413003
+    }
+  ],
+  "test_return_std_T": [
+    37
+  ],
+  "vdn extrinsic rewards": [
+    0.07757102888027513
+  ],
+  "vdn extrinsic rewards_T": [
+    1267
+  ],
+  "vdn intrinsic rewards": [
+    0.003162953076441644
+  ],
+  "vdn intrinsic rewards_T": [
+    1267
+  ],
+  "vdn predict_grad_norm": [
+    1.8055648803710938
+  ],
+  "vdn predict_grad_norm_T": [
+    1267
+  ],
+  "vdn predict_mac_out_mean": [
+    0.03594978153705597
+  ],
+  "vdn predict_mac_out_mean_T": [
+    1267
+  ],
+  "vdn prediction loss": [
+    3.1629526615142822
+  ],
+  "vdn prediction loss_T": [
+    1267
+  ],
+  "vdn soft_target_mac_out_next_mean": [
+    -0.0013275822857394814
+  ],
+  "vdn soft_target_mac_out_next_mean_T": [
+    1267
+  ]
+}
